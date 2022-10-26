@@ -34,22 +34,22 @@ typedef struct _PageMemoryListNode
 }PageMemoryListNode,*PPageMemoryListNode;
 
 typedef struct _HookRegs {
-	unsigned long ax;
-	unsigned long cx;
-	unsigned long dx;
-	unsigned long bx;
-	unsigned long sp;
-	unsigned long bp;
-	unsigned long si;
-	unsigned long di;
-	unsigned long r8;
-	unsigned long r9;
-	unsigned long r10;
-	unsigned long r11;
-	unsigned long r12;
-	unsigned long r13;
-	unsigned long r14;
-	unsigned long r15;
+	ULONG64 ax;
+	ULONG64 cx;
+	ULONG64 dx;
+	ULONG64 bx;
+	ULONG64 sp;
+	ULONG64 bp;
+	ULONG64 si;
+	ULONG64 di;
+	ULONG64 r8;
+	ULONG64 r9;
+	ULONG64 r10;
+	ULONG64 r11;
+	ULONG64 r12;
+	ULONG64 r13;
+	ULONG64 r14;
+	ULONG64 r15;
 }HookRegs,*PHookRegs;
 
 #pragma pack(push,1)
