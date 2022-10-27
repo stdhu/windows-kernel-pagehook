@@ -28,7 +28,9 @@ Currently only supports windows 64 bit system.
 
 ## Build
 
-Visual Studio 2017
+Visual Studio 2017 
+
+WDK version 10.0.17763.0
 
 Open windows-kernel-pagehook.sln with Visual Studio
 
