@@ -1,6 +1,6 @@
 #pragma once
 
-//PML4E结构体
+//PML4E
 typedef struct _HardwarePml4e
 {
 	ULONG64 Valid : 1;               
@@ -19,7 +19,7 @@ typedef struct _HardwarePml4e
 	ULONG64 NoExecute : 1;           
 }HardwarePml4e, *PHardwarePml4e;
 
-//PDPTE结构体
+//PDPTE
 typedef struct _HardwarePdpte
 {
 	ULONG64 Valid : 1;               
@@ -38,7 +38,7 @@ typedef struct _HardwarePdpte
 	ULONG64 NoExecute : 1;           
 }HardwarePdpte,*PHardwarePdpte;
 
-
+//Pde
 typedef struct _HardwarePde
 {
 	ULONG64 Valid : 1;               
@@ -57,6 +57,7 @@ typedef struct _HardwarePde
 	ULONG64 NoExecute : 1;           
 }HardwarePde, *PHardwarePde;
 
+//2MB PDE
 typedef struct _HardwareHugePde
 {
 	ULONG64 Valid : 1;               
@@ -77,6 +78,7 @@ typedef struct _HardwareHugePde
 	ULONG64 NoExecute : 1;           
 }HardwareHugePde,*PHardwareHugePde;
 
+//PTE
 typedef struct _HardwarePte
 {
 	ULONG64 Valid : 1;               
